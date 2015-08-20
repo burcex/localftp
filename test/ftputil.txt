@@ -1,0 +1,12 @@
+dot.notation access to dictionary attributes
+
+>>> from ftputil import *
+>>> dotdict({'c':1,'d':2})
+{'c': 1, 'd': 2}
+
+>>> linuxPath('C:\Users\march\AppData\Local\Temp\svn57BE.tmp')
+'C:/Users/march/AppData/Local/Temp/svn57BE.tmp'
+
+>>> optionConfig.main() 
+
+'C:/Users/march/AppData/Local/Temp/svn57BE.tmp'
